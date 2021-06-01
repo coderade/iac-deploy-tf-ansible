@@ -1,9 +1,9 @@
 terraform {
   required_version = ">=0.12.0"
   backend "s3" {
-    region = "us-east-1"
+    region  = "us-east-1"
     profile = "default"
-    key    = "terraformstatefile"
-    bucket = "<BUCKET_NAME>"
+    key     = "terraformstatefile"
+    bucket  = "terraform-state-bucket-valdeci"
   }
 }

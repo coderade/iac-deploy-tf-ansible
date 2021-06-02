@@ -20,3 +20,7 @@ Then we need to initialize the backend with the following command:
 ## Using variables and providers
 
 Example of how to use variables and providers in Terraform can be found in: [variables.tf](variables.tf) and [providers.tf](providers.tf)
+
+## Deploying VPCs, Internet GWs, and Subnets 
+
+Example of how to uDEPLOY in Terraform AWS VPCs, Internet GWs, and Subnets can be found in: [networks.tf](networks.tf) 

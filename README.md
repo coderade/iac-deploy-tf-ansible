@@ -33,6 +33,10 @@ Example of how to deploy in Terraform Multi-Region VPC peerings can be found in:
 Example of how to deploy Security Groups in Terraform can be found in [security_groups.tf](security_groups.tf) 
 
 
+## Using Data Source (SSM Parameter Store) to Fetch AMI IDs
+
+Example of how to use Data source to fetch AMI ids can be found in [instances.tf](instances.tf) 
+
 ## Destroy Terraform objects
 
 If you are testing and want a destroy all remote objects managed by this Terraform configuration use:

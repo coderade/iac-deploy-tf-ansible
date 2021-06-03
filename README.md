@@ -27,3 +27,15 @@ Example of how to deploy in Terraform AWS VPCs, Internet GWs, and Subnets can be
 ## Deploying Multi-Region VPC Peering
 
 Example of how to deploy in Terraform Multi-Region VPC peerings can be found in: [networks.tf](networks.tf) 
+
+## Deploying Security groups
+
+Example of how to deploy Security Groups in Terraform can be found in [security_groups.tf](security_groups.tf) 
+
+
+## Destroy Terraform objects
+
+If you are testing and want a destroy all remote objects managed by this Terraform configuration use:
+
+    terraform destroy
+

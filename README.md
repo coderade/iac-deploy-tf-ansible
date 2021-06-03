@@ -21,6 +21,9 @@ Then we need to initialize the backend with the following command:
 
 Example of how to use variables and providers in Terraform can be found in: [variables.tf](variables.tf) and [providers.tf](providers.tf)
 
-## Deploying VPCs, Internet GWs, and Subnets 
+## Deploying VPCs, Internet GWs, and Subnets
 
-Example of how to uDEPLOY in Terraform AWS VPCs, Internet GWs, and Subnets can be found in: [networks.tf](networks.tf) 
+Example of how to deploy in Terraform AWS VPCs, Internet GWs, and Subnets can be found in: [networks.tf](networks.tf) 
+## Deploying Multi-Region VPC Peering
+
+Example of how to deploy in Terraform Multi-Region VPC peerings can be found in: [networks.tf](networks.tf) 

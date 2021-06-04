@@ -46,7 +46,7 @@ To create the authentication key pairs for SSH use the following command:
 
 A public and a private key will be created in your `~/.ssh` directory
 
-The example of how to create the key pairs can be found in: [instances.tf](instances.tf)
+The example of how to atach the key pairs in the EC2 instances can be found in: [instances.tf](instances.tf)
 
 ## Create EC2 instances
 

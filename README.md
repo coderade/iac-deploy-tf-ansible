@@ -3,9 +3,22 @@
 
 Infrastructure as Code examples with [Terraform](https://www.terraform.io/) and [Ansible](https://www.ansible.com/) for AWS.
 
+### Table of contents:
+
+  - [Persisting Terraform State in S3 Back End](#persisting-terraform-state-in-s3-back-end)
+    - [Create S3 bucket](#create-s3-bucket)
+    - [Init the backend](#init-the-backend)
+  - [Using variables and providers](#using-variables-and-providers)
+  - [Deploying VPCs, Internet GWs, and Subnets](#deploying-vpcs-internet-gws-and-subnets)
+  - [Deploying Multi-Region VPC Peering](#deploying-multi-region-vpc-peering)
+  - [Deploying Security groups](#deploying-security-groups)
+  - [Using Data Source (SSM Parameter Store) to Fetch AMI IDs](#using-data-source-ssm-parameter-store-to-fetch-ami-ids)
+  - [Deploying Key Pairs for App Nodes](#deploying-key-pairs-for-app-nodes)
+  - [Create EC2 instances](#create-ec2-instances)
+  - [Destroy Terraform objects](#destroy-terraform-objects)
+
 ## Persisting Terraform State in S3 Back End
 Example of how save the Terraform state file in S3 bucket. Changes on the backend can be found on the [backend.tf](backend.tf) file
-
 ### Create S3 bucket 
 
 First we need to create a S3 bucket file:
@@ -60,5 +73,3 @@ A example of how to get the ips of the created instances can be found: [outputs.
 If you are testing and want a destroy all remote objects managed by this Terraform configuration use:
 
     terraform destroy
-
-

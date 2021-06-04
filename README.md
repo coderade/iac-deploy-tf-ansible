@@ -67,6 +67,17 @@ Example of how to create the EC2 instances can be found in: [instances.tf](insta
 
 A example of how to get the ips of the created instances can be found: [outputs.tf](outputs.tf)
 
+## Configuring Terraform Provisioners for Config Management via Ansible
+
+Example of how to run Terraform provisioners with Ansible can be found on the [instances.tf](instances.tf) file.
+
+Files used by Ansible: 
+
+- [inventory_aws/tf_aws_ec2.yml](inventory_aws/tf_aws_ec2.yml)
+- [ansible_templates/jenkins-master-sample.yml](ansible_templates/jenkins-master-sample.yml)
+- [ansible_templates/jenkins-worker-sample.yml](ansible_templates/jenkins-worker-sample.yml)
+- [ansible.cfg](ansible.cfg)
+
 
 ## Destroy Terraform objects
 

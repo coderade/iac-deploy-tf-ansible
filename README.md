@@ -37,9 +37,21 @@ Example of how to deploy Security Groups in Terraform can be found in [security_
 
 Example of how to use Data source to fetch AMI ids can be found in [instances.tf](instances.tf) 
 
+
+## Deploying Key Pairs for App Nodes
+   
+To create the authentication key pairs for SSH use the following command:
+
+    ssh-keygen -t rsa
+
+A public and a private key will be created in your `~/.ssh` directory
+
+The example of how create the key pairs can be found in: [instances.tf](instances.tf)
+
 ## Destroy Terraform objects
 
 If you are testing and want a destroy all remote objects managed by this Terraform configuration use:
 
     terraform destroy
+
 

@@ -46,7 +46,14 @@ To create the authentication key pairs for SSH use the following command:
 
 A public and a private key will be created in your `~/.ssh` directory
 
-The example of how create the key pairs can be found in: [instances.tf](instances.tf)
+The example of how to create the key pairs can be found in: [instances.tf](instances.tf)
+
+## Create EC2 instances
+
+Example of how to create the EC2 instances can be found in: [instances.tf](instances.tf)
+
+A example of how to get the ips of the created instances can be found: [outputs.tf](outputs.tf)
+
 
 ## Destroy Terraform objects
 
